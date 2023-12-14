@@ -1,0 +1,27 @@
+{
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "[cpp]": {
+        "editor.tabSize": 2
+    },
+    "[cmake]": {
+        "editor.tabSize": 2
+    },
+    "[objective-cpp]": {
+        "editor.tabSize": 2
+    },
+    "[dockerfile]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": false
+    },
+    "clangd.path": "/opt/homebrew/opt/llvm/bin/clangd",
+    "clangd.arguments": [
+        "-log=verbose",
+        "-pretty",
+        "--background-index",
+        "--compile-commands-dir=/path/to/your/compile_commands_dir/"
+    ]
+}

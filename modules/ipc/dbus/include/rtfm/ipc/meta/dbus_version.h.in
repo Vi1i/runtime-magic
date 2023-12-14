@@ -1,0 +1,8 @@
+#pragma once
+
+namespace rtfm::meta::ipc::dbus::version {
+static constexpr int kMajor { @PROJECT_VERSION_MAJOR @ };
+static constexpr int kMinor { @PROJECT_VERSION_MINOR @ };
+static constexpr int kPatch { @PROJECT_VERSION_PATCH @ };
+static constexpr auto kString{"@PROJECT_VERSION@"};
+}  // namespace rtfm::meta::ipc::dbus::version
