@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
-project(rtfm-server VERSION 0.1.0 LANGUAGES CXX)
+project(rtfm-server VERSION 0.0.1 LANGUAGES CXX)
 
-# configure_file(version.h.in ${CMAKE_CURRENT_BINARY_DIR}/include/rtfm/server/meta/version.h @ONLY)
+configure_file(include/rtfm/server/meta/version.h.in ${CMAKE_CURRENT_BINARY_DIR}/include/rtfm/server/meta/version.h @ONLY)
 
 add_executable(rtfm-server
   src/server.cpp

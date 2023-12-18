@@ -1,2 +1,0 @@
-add_subdirectory(dbus)
-add_subdirectory(macos_notification_center)

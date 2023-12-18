@@ -2,16 +2,8 @@
 
 #include <string>
 
-#include "rtfm/core/meta/version.h"
-#include "rtfm/core/rhyme.h"
+#include "rtfm/core/constants.h"
+#include "rtfm/core/info.h"
+#include "rtfm/core/rhymes.h"
 
-namespace rtfm::core {
-struct LibraryInfo {
-  std::string version_string;
-  int version_major;
-  int version_minor;
-  int version_patch;
-};
-
-auto GetLibraryInfo() -> LibraryInfo;
-}  // namespace rtfm::core
+namespace rtfm::core {}  // namespace rtfm::core

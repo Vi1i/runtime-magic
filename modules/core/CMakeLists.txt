@@ -5,6 +5,8 @@ configure_file(include/rtfm/core/meta/version.h.in ${CMAKE_CURRENT_BINARY_DIR}/i
 
 add_library(rtfm-core SHARED
   src/core.cc
+  src/parser/sem_ver_parser.cc
+  src/info/sem_ver.cc
 )
 
 target_compile_features(rtfm-core PUBLIC cxx_std_20)
